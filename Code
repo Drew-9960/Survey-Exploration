@@ -1,6 +1,11 @@
+"""
+Created on Fri Jun 26 13:29:51 2020
+
+@author: melen
+"""
 
 import pandas as pd 
-pd.set_option('display.max_columns', 30)
+pd.set_option('display.max_columns', 15)
 
 data = pd.read_csv('Topic_Survey_Assignment.csv')
 
